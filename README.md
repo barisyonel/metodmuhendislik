@@ -10,6 +10,7 @@ Modern ve profesyonel bir kurumsal web sitesi. CNC lazer kesim, CNC büküm, kay
 - **Veritabanı:** MySQL 8.0
 - **Kimlik Doğrulama:** Session-based (bcryptjs)
 - **Deployment:** Vercel / Docker
+- **AI Desteği:** Cursor, Gemini & Canva (UI/UX Tasarım)
 
 ## ✨ Özellikler
 
