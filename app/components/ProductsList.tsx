@@ -67,7 +67,7 @@ async function getProducts(): Promise<Product[]> {
   }
 }
 
-export default async function ProductsList(): Promise<JSX.Element> {
+export default async function ProductsList() {
   const products = await getProducts();
 
   if (!products || products.length === 0) {
