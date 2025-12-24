@@ -14,6 +14,16 @@ export default function HeroSlider() {
   const slides = [
     {
       id: 1,
+      img: "https://picsum.photos/seed/panel-main/2000/1200",
+      title: "Elektrik Pano & Marin Pano Üretimi",
+      subtitle: "Güvenli Enerji Dağıtım Çözümleri",
+      description:
+        "20+ yıllık deneyimimizle elektrik pano ve marin pano üretiminde sektörün öncü firması. Sıvaüstü, sıvaaltı, dahili ve marin pano üretimi ile güvenilir enerji dağıtım çözümleri sunuyoruz.",
+      color: "from-yellow-600/90 to-blue-900/90",
+      link: "/hizmetler/elektrik-pano-uretime",
+    },
+    {
+      id: 2,
       img: "https://picsum.photos/seed/industrial1/2000/1200",
       title: "CNC Lazer Kesim",
       subtitle: "Hassas ve Hızlı Üretim",
@@ -23,7 +33,7 @@ export default function HeroSlider() {
       link: "/hizmetler/cnc-lazer-kesim",
     },
     {
-      id: 2,
+      id: 3,
       img: "https://picsum.photos/seed/industrial2/2000/1200",
       title: "CNC Büküm",
       subtitle: "Profesyonel İmalat Çözümleri",
@@ -31,16 +41,6 @@ export default function HeroSlider() {
         "CNC büküm teknolojimiz ile şekillendirme işlemlerinde mükemmellik",
       color: "from-slate-700/90 to-blue-800/90",
       link: "/hizmetler/cnc-bukum",
-    },
-    {
-      id: 3,
-      img: "https://picsum.photos/seed/industrial3/2000/1200",
-      title: "Elektrik Pano & Marin Pano",
-      subtitle: "Güvenli Enerji Dağıtımı",
-      description:
-        "Elektrik pano ve marin pano üretimi ile güvenilir enerji dağıtım çözümleri",
-      color: "from-yellow-600/90 to-blue-900/90",
-      link: "/hizmetler/elektrik-pano-uretime",
     },
     {
       id: 4,

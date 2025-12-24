@@ -22,6 +22,16 @@ export const metadata: Metadata = {
 export default function HizmetlerPage() {
   const hizmetler = [
     {
+      slug: "elektrik-pano-uretime",
+      title: "Elektrik Pano Üretimi",
+      description:
+        "20+ yıllık deneyimimizle elektrik pano ve marin pano üretiminde sektörün öncü firması. Sıvaüstü, sıvaaltı, dahili ve marin pano üretimi. Güvenli ve verimli enerji dağıtım çözümleri.",
+      icon: "⚡",
+      color: "from-yellow-500 to-yellow-600",
+      img: "https://picsum.photos/seed/panel1/600/400",
+      featured: true,
+    },
+    {
       slug: "cnc-lazer-kesim",
       title: "CNC Lazer Kesim",
       description:
@@ -75,15 +85,6 @@ export default function HizmetlerPage() {
       color: "from-gray-600 to-gray-700",
       img: "https://picsum.photos/seed/steel1/600/400",
     },
-    {
-      slug: "elektrik-pano-uretime",
-      title: "Elektrik Pano Üretimi",
-      description:
-        "Müşteri ihtiyaçlarına özel elektrik pano ve marin pano üretimi. Güvenli ve verimli enerji dağıtım çözümleri. Sıvaüstü, sıvaaltı, dahili ve marin pano üretimi.",
-      icon: "⚡",
-      color: "from-yellow-500 to-yellow-600",
-      img: "https://picsum.photos/seed/panel1/600/400",
-    },
   ];
 
   return (
@@ -111,7 +112,11 @@ export default function HizmetlerPage() {
                 <Link
                   href={`/hizmetler/${hizmet.slug}`}
                   key={hizmet.slug}
-                  className="group relative overflow-hidden rounded-2xl bg-white border border-slate-200 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
+                  className={`group relative overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 ${
+                    hizmet.featured 
+                      ? "border-4 border-yellow-500 shadow-xl shadow-yellow-500/30" 
+                      : "border border-slate-200"
+                  }`}
                 >
                   {/* Görsel */}
                   <div className="relative h-48 overflow-hidden">

@@ -7,15 +7,15 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Metod Mühendislik | CNC Lazer Kesim, Büküm, Kaynak, Elektrik Pano ve Çelik Konstrüksiyon",
+  title: "Metod Mühendislik | Elektrik Pano Üretimi - Marin Pano, Sıvaüstü, Sıvaaltı Pano",
   description:
-    "CNC lazer kesim, CNC büküm, kaynak, elektrostatik toz boya, mağaza rafları, çelik konstrüksiyon ve elektrik pano üretimi hizmetleri. İstanbul'da 20+ yıllık deneyim ile endüstriyel üretim çözümleri. Kaliteli ve güvenilir hizmet.",
+    "Elektrik pano ve marin pano üretiminde 20+ yıllık deneyim. Sıvaüstü, sıvaaltı, dahili ve marin pano üretimi. CNC lazer kesim, büküm, kaynak ve çelik konstrüksiyon hizmetleri. İstanbul'da kaliteli ve güvenilir elektrik pano çözümleri.",
   keywords:
-    "CNC lazer kesim, CNC büküm, kaynak, metal kaynak, elektrostatik toz boya, mağaza raf, çelik konstrüksiyon, elektrik pano, marin pano, elektrik pano üretimi, endüstriyel üretim, mühendislik çözümleri, İstanbul, Tuzla",
+    "elektrik pano, marin pano, elektrik pano üretimi, sıvaüstü pano, sıvaaltı pano, dahili pano, enerji dağıtım panosu, CNC lazer kesim, CNC büküm, kaynak, metal kaynak, elektrostatik toz boya, mağaza raf, çelik konstrüksiyon, endüstriyel üretim, mühendislik çözümleri, İstanbul, Tuzla",
   openGraph: {
-    title: "Metod Mühendislik | CNC Lazer Kesim, Büküm, Kaynak ve Elektrik Pano Üretimi",
+    title: "Metod Mühendislik | Elektrik Pano ve Marin Pano Üretimi - İstanbul",
     description:
-      "CNC lazer kesim, CNC büküm, kaynak, elektrostatik toz boya, mağaza rafları, çelik konstrüksiyon ve elektrik pano üretimi hizmetleri. İstanbul'da kaliteli ve güvenilir çözümler.",
+      "Elektrik pano ve marin pano üretiminde uzman. Sıvaüstü, sıvaaltı, dahili ve marin pano üretimi. CNC lazer kesim, büküm, kaynak hizmetleri. İstanbul'da kaliteli ve güvenilir çözümler.",
     type: "website",
     locale: "tr_TR",
   },
@@ -31,7 +31,7 @@ export default function HomePage() {
     "@type": "Organization",
     name: "Metod Mühendislik",
     description:
-      "CNC lazer kesim, CNC büküm, kaynak, elektrostatik toz boya, mağaza rafları, çelik konstrüksiyon ve elektrik pano üretimi hizmetleri sunan endüstriyel üretim firması",
+      "Elektrik pano ve marin pano üretiminde 20+ yıllık deneyim. Sıvaüstü, sıvaaltı, dahili ve marin pano üretimi. Ayrıca CNC lazer kesim, CNC büküm, kaynak, elektrostatik toz boya, mağaza rafları ve çelik konstrüksiyon hizmetleri sunan endüstriyel üretim firması",
     url: "https://metodmuhendislik.com",
     logo: "https://metodmuhendislik.com/logo.png",
     address: {
@@ -136,7 +136,7 @@ export default function HomePage() {
                     Ne Sunuyoruz?
                   </h2>
                   <p className="text-slate-600 text-base leading-relaxed">
-                    CNC lazer kesim, CNC büküm, metal kaynak, elektrostatik toz boya, mağaza raf sistemleri, çelik konstrüksiyon, elektrik pano ve marin pano üretimi hizmetleri.
+                    <strong className="text-blue-600">Elektrik pano ve marin pano üretimi</strong> ana hizmetimizdir. Ayrıca CNC lazer kesim, CNC büküm, metal kaynak, elektrostatik toz boya, mağaza raf sistemleri ve çelik konstrüksiyon hizmetleri sunuyoruz.
                   </p>
                 </div>
 
@@ -238,13 +238,19 @@ export default function HomePage() {
                 Endüstriyel Üretim Çözümlerimiz
               </h2>
               <p className="text-slate-600 max-w-3xl mx-auto text-lg leading-relaxed">
-                Üstün teknoloji sınırsız kalite anlayışıyla geleceğe çözüm sunan
-                ürünlerimiz TSE standartlarında üretilmektedir. CNC lazer kesim, büküm, metal kaynak, elektrostatik toz boya, mağaza raf sistemleri, çelik konstrüksiyon, elektrik pano ve marin pano üretimi hizmetlerimizle yanınızdayız.
+                <strong className="text-blue-600">Elektrik pano ve marin pano üretimi</strong> ana faaliyet alanımızdır. 20+ yıllık deneyimimizle sıvaüstü, sıvaaltı, dahili ve marin pano üretiminde sektörün öncü firmasıyız. Ayrıca CNC lazer kesim, büküm, metal kaynak, elektrostatik toz boya, mağaza raf sistemleri ve çelik konstrüksiyon hizmetlerimizle yanınızdayız. Tüm ürünlerimiz TSE standartlarında üretilmektedir.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
               {[
+                {
+                  title: "Elektrik Pano Üretimi",
+                  desc: "20+ yıllık deneyimimizle elektrik pano ve marin pano üretimi. Sıvaüstü, sıvaaltı, dahili ve marin pano çözümleri. Güvenli ve verimli enerji dağıtım sistemleri.",
+                  link: "/hizmetler/elektrik-pano-uretime",
+                  icon: "⚡",
+                  featured: true,
+                },
                 {
                   title: "CNC Lazer Kesim",
                   desc: "Hassas ve hızlı lazer kesim çözümleri ile endüstriyel üretimde öncü. Yüksek kaliteli malzemelerde kesim hizmetleri.",
@@ -263,17 +269,15 @@ export default function HomePage() {
                   link: "/hizmetler/kaynak",
                   icon: "🔥",
                 },
-                {
-                  title: "Elektrik Pano Üretimi",
-                  desc: "Müşteri ihtiyaçlarına özel elektrik pano ve marin pano üretimi. Güvenli ve verimli enerji dağıtım çözümleri.",
-                  link: "/hizmetler/elektrik-pano-uretime",
-                  icon: "⚡",
-                },
               ].map((item, i) => (
                 <Link
                   href={item.link}
                   key={i}
-                  className="group bg-gradient-to-br from-slate-50 to-white border-2 border-slate-200 rounded-2xl p-8 hover:border-blue-600 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+                  className={`group bg-gradient-to-br from-slate-50 to-white border-2 rounded-2xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 ${
+                    item.featured 
+                      ? "border-yellow-500 border-4 shadow-lg shadow-yellow-500/20 hover:border-yellow-600" 
+                      : "border-slate-200 hover:border-blue-600"
+                  }`}
                 >
                   <div className="text-5xl mb-4">{item.icon}</div>
                   <h3 className="text-xl font-black text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
@@ -846,15 +850,15 @@ export default function HomePage() {
                 </p>
 
                 <h2 className="text-3xl md:text-4xl font-black text-slate-900 mt-12 mb-6">
-                  Elektrik Pano Üretimi ve Enerji Dağıtım Çözümleri
+                  Elektrik Pano Üretimi - Ana Faaliyet Alanımız
                 </h2>
 
                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                  <strong>Elektrik pano üretimi</strong>, endüstriyel ve ticari yapılarda güvenli enerji dağıtımı için kritik öneme sahiptir. Metod Mühendislik olarak, müşteri ihtiyaçlarına özel tasarım ve üretim çözümleri sunmaktayız. Sıvaüstü elektrik pano, sıvaaltı elektrik pano, dahili elektrik pano, marin pano ve özel tip elektrik panolar üretmekteyiz.
+                  <strong>Elektrik pano üretimi</strong>, Metod Mühendislik'in ana faaliyet alanıdır. 20+ yıllık deneyimimizle endüstriyel ve ticari yapılarda güvenli enerji dağıtımı için kritik öneme sahip çözümler sunmaktayız. Müşteri ihtiyaçlarına özel tasarım ve üretim çözümleri ile sıvaüstü elektrik pano, sıvaaltı elektrik pano, dahili elektrik pano, marin pano ve özel tip elektrik panolar üretmekteyiz.
                 </p>
 
                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                  Elektrik pano üretimimizde, uluslararası standartlara uygun olarak çalışmakta ve kalite kontrol testlerinden geçirmekteyiz. Özellikle denizcilik sektörü için ürettiğimiz marin pano çözümlerimiz, deniz ortamına dayanıklı malzemeler ve özel koruma sistemleri ile üretilmektedir. Her projede, müşteri gereksinimlerini analiz ederek, en uygun teknik çözümleri sunmaktayız. Elektrik pano ve marin pano üretim hizmetlerimiz, fabrika binaları, ticari yapılar, konut projeleri, endüstriyel tesisler ve denizcilik uygulamalarında yaygın olarak kullanılmaktadır.
+                  Elektrik pano üretimimizde, uluslararası standartlara uygun olarak çalışmakta ve kalite kontrol testlerinden geçirmekteyiz. Özellikle denizcilik sektörü için ürettiğimiz marin pano çözümlerimiz, deniz ortamına dayanıklı malzemeler ve özel koruma sistemleri ile üretilmektedir. Her projede, müşteri gereksinimlerini analiz ederek, en uygun teknik çözümleri sunmaktayız. Elektrik pano ve marin pano üretim hizmetlerimiz, fabrika binaları, ticari yapılar, konut projeleri, endüstriyel tesisler ve denizcilik uygulamalarında yaygın olarak kullanılmaktadır. Sektördeki lider konumumuz, sürekli teknoloji yatırımları ve uzman personel eğitimleri sayesinde korunmaktadır.
                 </p>
 
                 <h2 className="text-3xl md:text-4xl font-black text-slate-900 mt-12 mb-6">
