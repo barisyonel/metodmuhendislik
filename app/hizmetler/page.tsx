@@ -7,13 +7,13 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Hizmetlerimiz | CNC Lazer Kesim, Büküm, Kaynak, Elektrik Pano ve Çelik Konstrüksiyon",
   description:
-    "CNC lazer kesim, CNC büküm, kaynak, elektrostatik toz boya, mağaza raf sistemleri, çelik konstrüksiyon ve elektrik pano üretimi hizmetlerimiz. İstanbul'da profesyonel endüstriyel üretim çözümleri.",
+    "CNC lazer kesim, CNC büküm, metal kaynak, elektrostatik toz boya, mağaza raf sistemleri, çelik konstrüksiyon, elektrik pano ve marin pano üretimi hizmetlerimiz. İstanbul'da profesyonel endüstriyel üretim çözümleri.",
   keywords:
-    "CNC lazer kesim, CNC büküm, kaynak, elektrostatik toz boya, mağaza raf, çelik konstrüksiyon, elektrik pano üretimi, İstanbul, endüstriyel üretim",
+    "CNC lazer kesim, CNC büküm, kaynak, metal kaynak, elektrostatik toz boya, mağaza raf, çelik konstrüksiyon, elektrik pano, marin pano, elektrik pano üretimi, İstanbul, endüstriyel üretim",
   openGraph: {
     title: "Hizmetlerimiz | Metod Mühendislik",
     description:
-      "CNC lazer kesim, CNC büküm, kaynak, elektrostatik toz boya, mağaza raf sistemleri, çelik konstrüksiyon ve elektrik pano üretimi hizmetlerimiz.",
+      "CNC lazer kesim, CNC büküm, metal kaynak, elektrostatik toz boya, mağaza raf sistemleri, çelik konstrüksiyon, elektrik pano ve marin pano üretimi hizmetlerimiz.",
     type: "website",
     locale: "tr_TR",
   },
@@ -43,7 +43,7 @@ export default function HizmetlerPage() {
       slug: "kaynak",
       title: "Kaynak & İmalat",
       description:
-        "Yüksek kaliteli kaynak ve imalat hizmetleri ile güvenilir çözümler. TIG, MIG/MAG kaynak yöntemleri ile uzman ekibimizle profesyonel hizmet.",
+        "Yüksek kaliteli metal kaynak ve imalat hizmetleri ile güvenilir çözümler. TIG, MIG/MAG kaynak yöntemleri ile uzman ekibimizle profesyonel hizmet.",
       icon: "🔥",
       color: "from-orange-500 to-orange-600",
       img: "https://picsum.photos/seed/weld1/600/400",
@@ -79,7 +79,7 @@ export default function HizmetlerPage() {
       slug: "elektrik-pano-uretime",
       title: "Elektrik Pano Üretimi",
       description:
-        "Müşteri ihtiyaçlarına özel elektrik pano üretimi. Güvenli ve verimli enerji dağıtım çözümleri. Sıvaüstü, sıvaaltı ve dahili pano üretimi.",
+        "Müşteri ihtiyaçlarına özel elektrik pano ve marin pano üretimi. Güvenli ve verimli enerji dağıtım çözümleri. Sıvaüstü, sıvaaltı, dahili ve marin pano üretimi.",
       icon: "⚡",
       color: "from-yellow-500 to-yellow-600",
       img: "https://picsum.photos/seed/panel1/600/400",

@@ -18,8 +18,8 @@ export const metadata: Metadata = {
     default: "Metod Mühendislik | Endüstriyel Üretim ve Mühendislik Çözümleri",
     template: "%s | Metod Mühendislik"
   },
-  description: "CNC lazer kesim, CNC büküm, kaynak ve mühendislik çözümleri. Endüstriyel üretimde kalite ve güvenin adresi. 20+ yıllık deneyim ile hizmetinizdeyiz.",
-  keywords: ["CNC lazer kesim", "CNC büküm", "kaynak", "endüstriyel üretim", "mühendislik çözümleri", "çelik konstrüksiyon", "elektrostatik toz boya"],
+  description: "CNC lazer kesim, CNC büküm, metal kaynak, elektrik pano, marin pano ve mühendislik çözümleri. Endüstriyel üretimde kalite ve güvenin adresi. 20+ yıllık deneyim ile hizmetinizdeyiz.",
+  keywords: ["CNC lazer kesim", "CNC büküm", "kaynak", "metal kaynak", "elektrik pano", "marin pano", "endüstriyel üretim", "mühendislik çözümleri", "çelik konstrüksiyon", "elektrostatik toz boya"],
   authors: [{ name: "Metod Mühendislik" }],
   creator: "Metod Mühendislik",
   publisher: "Metod Mühendislik",
@@ -34,12 +34,12 @@ export const metadata: Metadata = {
     url: "https://metodmuhendislik.com",
     siteName: "Metod Mühendislik",
     title: "Metod Mühendislik | Endüstriyel Üretim ve Mühendislik Çözümleri",
-    description: "CNC lazer kesim, CNC büküm, kaynak ve mühendislik çözümleri. Endüstriyel üretimde kalite ve güvenin adresi.",
+    description: "CNC lazer kesim, CNC büküm, metal kaynak, elektrik pano, marin pano ve mühendislik çözümleri. Endüstriyel üretimde kalite ve güvenin adresi.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Metod Mühendislik | Endüstriyel Üretim ve Mühendislik Çözümleri",
-    description: "CNC lazer kesim, CNC büküm, kaynak ve mühendislik çözümleri.",
+    description: "CNC lazer kesim, CNC büküm, metal kaynak, elektrik pano, marin pano ve mühendislik çözümleri.",
   },
   robots: {
     index: true,

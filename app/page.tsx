@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "CNC lazer kesim, CNC büküm, kaynak, elektrostatik toz boya, mağaza rafları, çelik konstrüksiyon ve elektrik pano üretimi hizmetleri. İstanbul'da 20+ yıllık deneyim ile endüstriyel üretim çözümleri. Kaliteli ve güvenilir hizmet.",
   keywords:
-    "CNC lazer kesim, CNC büküm, kaynak, elektrostatik toz boya, mağaza raf, çelik konstrüksiyon, elektrik pano üretimi, endüstriyel üretim, mühendislik çözümleri, İstanbul, Tuzla",
+    "CNC lazer kesim, CNC büküm, kaynak, metal kaynak, elektrostatik toz boya, mağaza raf, çelik konstrüksiyon, elektrik pano, marin pano, elektrik pano üretimi, endüstriyel üretim, mühendislik çözümleri, İstanbul, Tuzla",
   openGraph: {
     title: "Metod Mühendislik | CNC Lazer Kesim, Büküm, Kaynak ve Elektrik Pano Üretimi",
     description:
@@ -136,7 +136,7 @@ export default function HomePage() {
                     Ne Sunuyoruz?
                   </h2>
                   <p className="text-slate-600 text-base leading-relaxed">
-                    CNC lazer kesim, CNC büküm, kaynak, elektrostatik toz boya, mağaza raf sistemleri, çelik konstrüksiyon ve elektrik pano üretimi hizmetleri.
+                    CNC lazer kesim, CNC büküm, metal kaynak, elektrostatik toz boya, mağaza raf sistemleri, çelik konstrüksiyon, elektrik pano ve marin pano üretimi hizmetleri.
                   </p>
                 </div>
 
@@ -239,7 +239,7 @@ export default function HomePage() {
               </h2>
               <p className="text-slate-600 max-w-3xl mx-auto text-lg leading-relaxed">
                 Üstün teknoloji sınırsız kalite anlayışıyla geleceğe çözüm sunan
-                ürünlerimiz TSE standartlarında üretilmektedir. CNC lazer kesim, büküm, kaynak, elektrostatik toz boya, mağaza raf sistemleri, çelik konstrüksiyon ve elektrik pano üretimi hizmetlerimizle yanınızdayız.
+                ürünlerimiz TSE standartlarında üretilmektedir. CNC lazer kesim, büküm, metal kaynak, elektrostatik toz boya, mağaza raf sistemleri, çelik konstrüksiyon, elektrik pano ve marin pano üretimi hizmetlerimizle yanınızdayız.
               </p>
             </div>
 
@@ -259,13 +259,13 @@ export default function HomePage() {
                 },
                 {
                   title: "Kaynak & İmalat",
-                  desc: "Yüksek kaliteli kaynak ve imalat hizmetleri ile güvenilir çözümler. Uzman ekibimizle profesyonel hizmet.",
+                  desc: "Yüksek kaliteli metal kaynak ve imalat hizmetleri ile güvenilir çözümler. Uzman ekibimizle profesyonel hizmet.",
                   link: "/hizmetler/kaynak",
                   icon: "🔥",
                 },
                 {
                   title: "Elektrik Pano Üretimi",
-                  desc: "Müşteri ihtiyaçlarına özel elektrik pano üretimi. Güvenli ve verimli enerji dağıtım çözümleri.",
+                  desc: "Müşteri ihtiyaçlarına özel elektrik pano ve marin pano üretimi. Güvenli ve verimli enerji dağıtım çözümleri.",
                   link: "/hizmetler/elektrik-pano-uretime",
                   icon: "⚡",
                 },
@@ -776,22 +776,22 @@ export default function HomePage() {
                 </h2>
 
                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                  <strong>Kaynak</strong> ve imalat hizmetlerimiz, endüstriyel
+                  <strong>Metal kaynak</strong> ve imalat hizmetlerimiz, endüstriyel
                   üretim süreçlerinin vazgeçilmez bir parçasıdır. TIG kaynak,
-                  MIG/MAG kaynak ve elektrot kaynağı gibi farklı kaynak
+                  MIG/MAG kaynak ve elektrot kaynağı gibi farklı metal kaynak
                   yöntemlerini kullanarak, çelik, paslanmaz çelik, alüminyum ve
-                  diğer metal alaşımlarda profesyonel kaynak işlemleri
-                  gerçekleştirmekteyiz. Kaynak işlemlerimiz, uluslararası
+                  diğer metal alaşımlarda profesyonel metal kaynak işlemleri
+                  gerçekleştirmekteyiz. Metal kaynak işlemlerimiz, uluslararası
                   standartlara uygun olarak yapılmakta ve kalite kontrol
                   testlerinden geçmektedir.
                 </p>
 
                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                  Endüstriyel üretimde kaynak hizmetlerimiz, özellikle çelik
+                  Endüstriyel üretimde metal kaynak hizmetlerimiz, özellikle çelik
                   konstrüksiyon, makine imalatı, tank ve basınçlı kap üretimi
                   gibi kritik uygulamalarda kullanılmaktadır. Uzman
-                  kaynakçılarımız, yılların verdiği deneyimle, her türlü kaynak
-                  işlemini gerçekleştirebilmektedir. Kaynak işlemlerimizde,
+                  kaynakçılarımız, yılların verdiği deneyimle, her türlü metal kaynak
+                  işlemini gerçekleştirebilmektedir. Metal kaynak işlemlerimizde,
                   malzeme özelliklerine uygun kaynak malzemeleri ve
                   parametreleri seçilerek, maksimum dayanıklılık ve güvenilirlik
                   sağlanmaktadır.
@@ -850,11 +850,11 @@ export default function HomePage() {
                 </h2>
 
                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                  <strong>Elektrik pano üretimi</strong>, endüstriyel ve ticari yapılarda güvenli enerji dağıtımı için kritik öneme sahiptir. Metod Mühendislik olarak, müşteri ihtiyaçlarına özel tasarım ve üretim çözümleri sunmaktayız. Sıvaüstü pano, sıvaaltı pano, dahili pano ve özel tip panolar üretmekteyiz.
+                  <strong>Elektrik pano üretimi</strong>, endüstriyel ve ticari yapılarda güvenli enerji dağıtımı için kritik öneme sahiptir. Metod Mühendislik olarak, müşteri ihtiyaçlarına özel tasarım ve üretim çözümleri sunmaktayız. Sıvaüstü elektrik pano, sıvaaltı elektrik pano, dahili elektrik pano, marin pano ve özel tip elektrik panolar üretmekteyiz.
                 </p>
 
                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                  Elektrik pano üretimimizde, uluslararası standartlara uygun olarak çalışmakta ve kalite kontrol testlerinden geçirmekteyiz. Her projede, müşteri gereksinimlerini analiz ederek, en uygun teknik çözümleri sunmaktayız. Elektrik pano üretim hizmetlerimiz, fabrika binaları, ticari yapılar, konut projeleri ve endüstriyel tesislerde yaygın olarak kullanılmaktadır.
+                  Elektrik pano üretimimizde, uluslararası standartlara uygun olarak çalışmakta ve kalite kontrol testlerinden geçirmekteyiz. Özellikle denizcilik sektörü için ürettiğimiz marin pano çözümlerimiz, deniz ortamına dayanıklı malzemeler ve özel koruma sistemleri ile üretilmektedir. Her projede, müşteri gereksinimlerini analiz ederek, en uygun teknik çözümleri sunmaktayız. Elektrik pano ve marin pano üretim hizmetlerimiz, fabrika binaları, ticari yapılar, konut projeleri, endüstriyel tesisler ve denizcilik uygulamalarında yaygın olarak kullanılmaktadır.
                 </p>
 
                 <h2 className="text-3xl md:text-4xl font-black text-slate-900 mt-12 mb-6">

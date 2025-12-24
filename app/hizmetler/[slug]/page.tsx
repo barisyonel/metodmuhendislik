@@ -103,22 +103,22 @@ const hizmetler: {
     metaDescription:
       "Kaynak ve imalat hizmetleri. İstanbul'da TIG, MIG/MAG kaynak yöntemleri ile profesyonel kaynak hizmetleri. Çelik konstrüksiyon ve imalat çözümleri.",
     keywords:
-      "kaynak, TIG kaynak, MIG kaynak, imalat, çelik konstrüksiyon, İstanbul",
+      "kaynak, metal kaynak, TIG kaynak, MIG kaynak, imalat, çelik konstrüksiyon, İstanbul",
     icon: "🔥",
     color: "from-orange-500 to-orange-600",
     img: "https://picsum.photos/seed/weld1/600/400",
     content: [
       {
-        h2: "Kaynak ve İmalat Hizmetlerinde Uzmanlık",
+        h2: "Metal Kaynak ve İmalat Hizmetlerinde Uzmanlık",
         paragraphs: [
-          "Kaynak ve imalat hizmetlerimiz, endüstriyel üretim süreçlerinin vazgeçilmez bir parçasıdır. TIG kaynak, MIG/MAG kaynak ve elektrot kaynağı gibi farklı kaynak yöntemlerini kullanarak, çelik, paslanmaz çelik, alüminyum ve diğer metal alaşımlarda profesyonel kaynak işlemleri gerçekleştirmekteyiz.",
-          "Kaynak işlemlerimiz, uluslararası standartlara uygun olarak yapılmakta ve kalite kontrol testlerinden geçmektedir. Endüstriyel üretimde kaynak hizmetlerimiz, özellikle çelik konstrüksiyon, makine imalatı, tank ve basınçlı kap üretimi gibi kritik uygulamalarda kullanılmaktadır.",
+          "Metal kaynak ve imalat hizmetlerimiz, endüstriyel üretim süreçlerinin vazgeçilmez bir parçasıdır. TIG kaynak, MIG/MAG kaynak ve elektrot kaynağı gibi farklı metal kaynak yöntemlerini kullanarak, çelik, paslanmaz çelik, alüminyum ve diğer metal alaşımlarda profesyonel metal kaynak işlemleri gerçekleştirmekteyiz.",
+          "Metal kaynak işlemlerimiz, uluslararası standartlara uygun olarak yapılmakta ve kalite kontrol testlerinden geçmektedir. Endüstriyel üretimde metal kaynak hizmetlerimiz, özellikle çelik konstrüksiyon, makine imalatı, tank ve basınçlı kap üretimi, elektrik pano ve marin pano üretimi gibi kritik uygulamalarda kullanılmaktadır.",
         ],
       },
       {
-        h2: "Kaynak Yöntemlerimiz ve Uygulamalar",
+        h2: "Metal Kaynak Yöntemlerimiz ve Uygulamalar",
         paragraphs: [
-          "Uzman kaynakçılarımız, yılların verdiği deneyimle, her türlü kaynak işlemini gerçekleştirebilmektedir. Kaynak işlemlerimizde, malzeme özelliklerine uygun kaynak malzemeleri ve parametreleri seçilerek, maksimum dayanıklılık ve güvenilirlik sağlanmaktadır.",
+          "Uzman kaynakçılarımız, yılların verdiği deneyimle, her türlü metal kaynak işlemini gerçekleştirebilmektedir. Metal kaynak işlemlerimizde, malzeme özelliklerine uygun kaynak malzemeleri ve parametreleri seçilerek, maksimum dayanıklılık ve güvenilirlik sağlanmaktadır.",
           "TIG kaynak yöntemi, özellikle ince malzemeler ve paslanmaz çelik uygulamalarında kullanılmaktadır. MIG/MAG kaynak yöntemi ise, daha kalın malzemeler ve seri üretim uygulamalarında tercih edilmektedir.",
         ],
       },
@@ -239,7 +239,7 @@ const hizmetler: {
     metaDescription:
       "Elektrik pano üretimi. İstanbul'da sıvaüstü, sıvaaltı ve dahili pano üretimi. Güvenli ve verimli enerji dağıtım çözümleri için profesyonel hizmet.",
     keywords:
-      "elektrik pano, pano üretimi, elektrik panosu, enerji dağıtım, İstanbul",
+      "elektrik pano, marin pano, pano üretimi, elektrik panosu, enerji dağıtım, denizcilik pano, İstanbul",
     icon: "⚡",
     color: "from-yellow-500 to-yellow-600",
     img: "https://picsum.photos/seed/panel1/600/400",
@@ -248,14 +248,14 @@ const hizmetler: {
         h2: "Elektrik Pano Üretimi ve Enerji Dağıtım Çözümleri",
         paragraphs: [
           "Elektrik pano üretimi, endüstriyel ve ticari yapılarda güvenli enerji dağıtımı için kritik öneme sahiptir. Metod Mühendislik olarak, müşteri ihtiyaçlarına özel tasarım ve üretim çözümleri sunmaktayız.",
-          "Sıvaüstü pano, sıvaaltı pano, dahili pano ve özel tip panolar üretmekteyiz. Elektrik pano üretimimizde, uluslararası standartlara uygun olarak çalışmakta ve kalite kontrol testlerinden geçirmekteyiz.",
+          "Sıvaüstü elektrik pano, sıvaaltı elektrik pano, dahili elektrik pano, marin pano ve özel tip elektrik panolar üretmekteyiz. Elektrik pano ve marin pano üretimimizde, uluslararası standartlara uygun olarak çalışmakta ve kalite kontrol testlerinden geçirmekteyiz.",
         ],
       },
       {
         h2: "Pano Tipleri ve Üretim Süreçleri",
         paragraphs: [
-          "Her projede, müşteri gereksinimlerini analiz ederek, en uygun teknik çözümleri sunmaktayız. Elektrik pano üretim hizmetlerimiz, fabrika binaları, ticari yapılar, konut projeleri ve endüstriyel tesislerde yaygın olarak kullanılmaktadır.",
-          "Pano üretimimizde, CNC lazer kesim ile gövde üretimi, CNC büküm ile şekillendirme ve kaynak işlemleri ile birleştirme gerçekleştirilmektedir. Yüzey işlemleri için elektrostatik toz boya uygulanmakta ve montaj aşamasında elektrik ekipmanları yerleştirilmektedir.",
+          "Her projede, müşteri gereksinimlerini analiz ederek, en uygun teknik çözümleri sunmaktayız. Elektrik pano ve marin pano üretim hizmetlerimiz, fabrika binaları, ticari yapılar, konut projeleri, endüstriyel tesisler ve denizcilik uygulamalarında yaygın olarak kullanılmaktadır.",
+          "Elektrik pano ve marin pano üretimimizde, CNC lazer kesim ile gövde üretimi, CNC büküm ile şekillendirme ve metal kaynak işlemleri ile birleştirme gerçekleştirilmektedir. Özellikle marin pano üretiminde, deniz ortamına dayanıklı paslanmaz çelik ve özel koruma sistemleri kullanılmaktadır. Yüzey işlemleri için elektrostatik toz boya uygulanmakta ve montaj aşamasında elektrik ekipmanları yerleştirilmektedir.",
         ],
       },
       {

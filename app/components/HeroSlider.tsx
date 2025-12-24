@@ -35,12 +35,22 @@ export default function HeroSlider() {
     {
       id: 3,
       img: "https://picsum.photos/seed/industrial3/2000/1200",
-      title: "Mühendislik Çözümleri",
-      subtitle: "Endüstriyel Üretimde Güven",
+      title: "Elektrik Pano & Marin Pano",
+      subtitle: "Güvenli Enerji Dağıtımı",
       description:
-        "Uzman ekibimizle endüstriyel üretimde güvenilir çözüm ortağınızız",
-      color: "from-slate-900/90 to-blue-900/90",
-      link: "/hizmetler",
+        "Elektrik pano ve marin pano üretimi ile güvenilir enerji dağıtım çözümleri",
+      color: "from-yellow-600/90 to-blue-900/90",
+      link: "/hizmetler/elektrik-pano-uretime",
+    },
+    {
+      id: 4,
+      img: "https://picsum.photos/seed/industrial4/2000/1200",
+      title: "Metal Kaynak & İmalat",
+      subtitle: "Profesyonel Kaynak Hizmetleri",
+      description:
+        "Metal kaynak ve imalat hizmetlerimizle endüstriyel üretimde güvenilir çözümler",
+      color: "from-orange-600/90 to-slate-900/90",
+      link: "/hizmetler/kaynak",
     },
   ];
 
